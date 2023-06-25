@@ -19,7 +19,7 @@ Notre application permet aux administrateurs de gérer les comptes bancaires en 
 ![App Screenshot](/image/ArchitectureSpringAngular.jfif)
 ### Diagramme de classe
 ![App Screenshot](/image/ebaking-diagramme.png)
-Architecture du Backend :
+### Architecture du Backend :
 Dans notre application Spring MVC, on a utilisé une architecture multicouche courante pour le backend. Voici les principales couches de notre architecture :
 
 #### Couche de Présentation (Presentation Layer) : Cette couche est responsable de la gestion des requêtes HTTP entrantes et des réponses sortantes. Dans votre cas, vous avez utilisé des contrôleurs REST pour gérer les requêtes provenant du frontend et renvoyer les réponses appropriées. Les contrôleurs REST sont responsables de la coordination entre les couches inférieures et supérieures.
@@ -30,7 +30,7 @@ Dans notre application Spring MVC, on a utilisé une architecture multicouche co
 
 #### Couche de Mappage (Mapping Layer) : Cette couche est utilisée pour la conversion des objets entre les entités et les DTO. Vous pouvez utiliser des bibliothèques de mappage telles que ModelMapper ou MapStruct pour faciliter cette conversion.
 
-Architecture du Frontend :
+### Architecture du Frontend :
 Dans notre application Angular, On a également utilisé une architecture courante pour le frontend. Voici les principaux éléments de l'architecture :
 
 #### Components : Les composants sont les blocs de construction de votre interface utilisateur. Chaque composant représente une partie de l'interface et contient la logique pour interagir avec les utilisateurs.
