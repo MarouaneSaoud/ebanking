@@ -139,7 +139,7 @@ En combinant ces éléments, vous créez une interface utilisateur interactive e
 ![App Screenshot](/image/account-operations.png)
 #### L'interface "Customer Accounts" dans notre application e-banking permet aux utilisateurs de visualiser la liste des comptes associés à un client spécifique, tout en offrant une fonctionnalité de pagination pour faciliter la navigation.
 #### L'interface présente une liste clairement organisée des comptes du client, affichant des informations telles que le type de compte (compte d'épargne, compte courant, etc.), le numéro de compte, le solde actuel et d'autres détails pertinents. Pour éviter de surcharger l'écran avec un grand nombre de comptes, l'interface utilise la pagination, ce qui signifie que seules un certain nombre de comptes sont affichés à la fois. Les utilisateurs peuvent naviguer entre les différentes pages de comptes en utilisant des boutons de pagination ou en saisissant directement le numéro de page souhaité.
-![App Screenshot](/image/customers.png)
+![App Screenshot](/image/customer-accounts.png)
 #### La page "New Account" dans notre application e-banking permet aux utilisateurs de créer un nouveau compte bancaire pour un client existant en fournissant les informations nécessaires.
 #### L'interface de la page "New Account" présente un formulaire clair et intuitif avec des champs à remplir pour collecter les détails du nouveau compte. Les champs peuvent inclure des informations telles que le type de compte (compte d'épargne, compte courant, etc.), le solde initial, les options de découvert autorisé (le cas échéant), et d'autres paramètres spécifiques au compte.
 ![App Screenshot](/image/new-account.png)
