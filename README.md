@@ -45,7 +45,7 @@ Dans notre application Angular, On a également utilisé une architecture couran
 
 En combinant ces éléments, vous créez une interface utilisateur interactive et réactive qui communique avec le backend pour récupérer les données et effectuer des opérations.
 
-## Architecture du Projet
+## Quelque API consommer
 
 #### Post
 
