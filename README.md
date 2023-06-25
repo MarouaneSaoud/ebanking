@@ -126,7 +126,7 @@ En combinant ces éléments, vous créez une interface utilisateur interactive e
 
 | Parameter | Type  | Description                                           |
 |:----------|:------|:------------------------------------------------------|
-| `id`      | `get` | **Required**. supprimer un client par son identifient |
+| `id`      | `delete` | **Required**. supprimer un client par son identifient |
 
 ## Interface Graphique
 
