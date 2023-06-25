@@ -10,11 +10,15 @@
 - Architecture du Projet 
 - Quelque API consommer
 - Interface Graphique
+- Conclusion
 
 ## Le contexte generale de l'application
- Notre application permet aux administrateurs de gérer les comptes bancaires en ligne de manière pratique et sécurisée. En utilisant une combinaison de technologies telles que Spring MVC pour le backend et Angular pour le frontend, nous avons mis en place une architecture multicouche bien structurée. Du côté backend, nous avons développé des fonctionnalités telles que la création de nouveaux clients, l'ouverture de différents types de comptes bancaires tels que les comptes d'épargne et les comptes courants, ainsi que la gestion des opérations financières telles que le débit, le crédit et le transfert d'argent entre les comptes, etc ... Du côté frontend, nous avons créé une interface utilisateur conviviale avec Angular, offrant aux administrateurs une expérience intuitive pour rechercher des clients, afficher les informations des comptes et effectuer des opérations financières. On a travaillé pour concevoir, développer et tester chaque fonctionnalité, en nous assurant de fournir une application e-banking complète et fiable.
+Notre application permet aux administrateurs de gérer les comptes bancaires en ligne de manière pratique et sécurisée. En utilisant une combinaison de technologies telles que Spring MVC pour le backend et Angular pour le frontend, nous avons mis en place une architecture multicouche bien structurée. Du côté backend, nous avons développé des fonctionnalités telles que la création de nouveaux clients, l'ouverture de différents types de comptes bancaires tels que les comptes d'épargne et les comptes courants, ainsi que la gestion des opérations financières telles que le débit, le crédit et le transfert d'argent entre les comptes, etc ... Du côté frontend, nous avons créé une interface utilisateur conviviale avec Angular, offrant aux administrateurs une expérience intuitive pour rechercher des clients, afficher les informations des comptes et effectuer des opérations financières. On a travaillé pour concevoir, développer et tester chaque fonctionnalité, en nous assurant de fournir une application e-banking complète et fiable.
 
 ## Architecture du Projet
+![App Screenshot](/image/ArchitectureSpringAngular.jfif)
+### Diagramme de classe
+![App Screenshot](/image/ebaking-diagramme.png)
 Architecture du Backend :
 Dans notre application Spring MVC, on a utilisé une architecture multicouche courante pour le backend. Voici les principales couches de notre architecture :
 
@@ -143,4 +147,6 @@ En combinant ces éléments, vous créez une interface utilisateur interactive e
 #### La page "New Account" dans notre application e-banking permet aux utilisateurs de créer un nouveau compte bancaire pour un client existant en fournissant les informations nécessaires.
 #### L'interface de la page "New Account" présente un formulaire clair et intuitif avec des champs à remplir pour collecter les détails du nouveau compte. Les champs peuvent inclure des informations telles que le type de compte (compte d'épargne, compte courant, etc.), le solde initial, les options de découvert autorisé (le cas échéant), et d'autres paramètres spécifiques au compte.
 ![App Screenshot](/image/new-account.png)
+## Conclusion
+En conclusion, l'application e-banking que vous avez développée combine une architecture backend basée sur Spring MVC avec Angular en tant que framework frontend. L'application gère des entités telles que les clients, les comptes d'épargne, les comptes courants et les opérations bancaires. Du côté du backend, On a utilisé des DTO, des mappers, des services, des API REST et des repositories pour gérer les opérations CRUD, ainsi que pour effectuer des opérations bancaires telles que le débit, le crédit et le transfert d'argent. Le frontend basé sur Angular propose des interfaces conviviales pour rechercher et afficher les clients, gérer les comptes des clients, afficher les opérations bancaires avec pagination et effectuer de nouvelles opérations. L'ensemble de l'application vise à offrir une expérience utilisateur intuitive, sécurisée et efficace pour les opérations bancaires en ligne.
 
