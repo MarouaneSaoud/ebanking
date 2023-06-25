@@ -126,7 +126,7 @@ En combinant ces éléments, vous créez une interface utilisateur interactive e
 
 | Parameter | Type  | Description                                           |
 |:----------|:------|:------------------------------------------------------|
-| `id`      | `get` | **Required**. supprimer un client par son identifient |
+| `id`      | `delete` | **Required**. supprimer un client par son identifient |
 
 ## Interface Graphique
 
@@ -142,4 +142,8 @@ En combinant ces éléments, vous créez une interface utilisateur interactive e
 ![App Screenshot](/image/customers.png)
 #### La page "New Account" dans notre application e-banking permet aux utilisateurs de créer un nouveau compte bancaire pour un client existant en fournissant les informations nécessaires.
 #### L'interface de la page "New Account" présente un formulaire clair et intuitif avec des champs à remplir pour collecter les détails du nouveau compte. Les champs peuvent inclure des informations telles que le type de compte (compte d'épargne, compte courant, etc.), le solde initial, les options de découvert autorisé (le cas échéant), et d'autres paramètres spécifiques au compte.
+<<<<<<< HEAD
 ![App Screenshot](/image/new-account.png)
+=======
+![App Screenshot](/image)
+>>>>>>> origin/master

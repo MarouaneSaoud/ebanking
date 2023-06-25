@@ -62,6 +62,4 @@ public class BankAccountRestAPI {
         this.bankAccountService.saveSavingBankAccount(saveCurrentAccountDTO.getInitialBalance(), saveCurrentAccountDTO.getOverDreaft() , saveCurrentAccountDTO.getCustomerId());
         return saveCurrentAccountDTO;
     }
-
-
 }
